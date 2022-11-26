@@ -15,7 +15,7 @@ use std::{
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
-    /// Name of the the encrypted/decrypted file
+    /// Whether to encrypt the input file
     #[clap(short, long)]
     encrypt: bool,
     /// Key to encrypt with
